@@ -15,8 +15,8 @@ include('connect.php');
 <body>
 <div class="container">
     <div class="pic"
-    <img src="1.jpg"
-    </div>
+    <img src="1.jpg">
+</div>
     
     <h2>Github!</h2>
     <form action="connect.php" method="POST">
