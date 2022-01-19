@@ -19,7 +19,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$stmt = "INSERT INTO donate(FirstName,MiddleName,LastName,Email,Birthday,Address,Designation,Company,PhoneNumber)VALUES('$FirstName','$MiddleName',$LastName','$Email','$Birthday','$Address','$Designatio','$Company','$PhoneNumber')";
+$stmt = "INSERT INTO donate(FirstName,MiddleName,LastName,Email,Birthday,Address,Designation,Company,PhoneNumber)VALUES('$FirstName','$MiddleName','$LastName','$Email','$Birthday','$Address','$Designation','$Company','$PhoneNumber')";
 $debug = mysqli_query($conn,$stmt);
 if($debug)
  {
