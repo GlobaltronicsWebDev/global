@@ -1,6 +1,6 @@
 <?php
     $dbServername = 'localhost';
-    $dbUsername = 'globaltronics';
+    $dbUsername = 'u553953718_globaltronics';
     $dbPassword = 'Scinort.2021';
     $dbName = 'u553953718_testingglobal';
 
@@ -16,7 +16,7 @@
     $PhoneNumber = $_POST['Phone'];
 
     //Database connect
-    $conn = new mysqli('localhost','donate','Scinort.2021','testingglobal');
+    $conn = new mysqli('localhost','u553953718_globaltronics','Scinort.2021','u553953718_testingglobal');
     if ($conn->connect_error){
         echo "$conn->connect_error";
         die("Connection_failed :".$conn->connect_error);
