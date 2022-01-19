@@ -21,5 +21,12 @@ if (!$conn) {
 }
 $stmt = "INSERT INTO donate(FirstName,MiddleName,LastName,Email,Birthday,Address,Designation,Company,PhoneNumber)VALUES('$FirstName','$MiddleName',$LastName','$Email','$Birthday','$Address','$Designatio','$Company','$PhoneNumber')";
 $debug = mysqli_query($conn,$stmt);
-echo "Successful",$debug;
+if($debug)
+ {
+     echo "Successful";
+ }
+ else
+ {
+    echo "error";
+ }
 ?>
