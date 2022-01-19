@@ -2,7 +2,7 @@
     $dbServername = 'localhost';
     $dbUsername = 'globaltronics';
     $dbPassword = 'Scinort.2021';
-    $dbName = 'donate';
+    $dbName = 'u553953718_testingglobal';
 
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
     $FirstName = $_POST['FirstName'];
@@ -25,7 +25,7 @@
     values(?,?,?,?,?,?,?,?,?,?)");
     $stmt->bind_param("ssssssssi",$FirstName,$MiddleName,$LastName,$Email,$Birthday,$Address,$Designation,$Company,$PhoneNumber);
     $stmt->execute();
-    echo "Donate Successfully....";
+    echo "Donate Successfully...gufujfbbf.";
     $stmt->close();
     $conn->close();
 ?>
