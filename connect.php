@@ -13,7 +13,7 @@
     $Address = $_POST['Address'];
     $Designation = $_POST['Designation'];
     $Company = $_POST['Company'];
-    $PhoneNumber = $_POST['Phone'];
+    $PhoneNumber = $_POST['PhoneNumber'];
 
     //Database connect
     $conn = new mysqli('localhost','u553953718_globaltronics','Scinort.2021','u553953718_testingglobal');
