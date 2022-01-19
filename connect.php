@@ -21,7 +21,7 @@
         echo "$conn->connect_error";
         die("Connection_failed :".$conn->connect_error);
     }else
-    $stmt = $conn->prepare("insert into donate(FirstName,MiddleName,LastName,Email,Birthday,Address,Designation,Company,PhoneNumber)
+    $stmt = $conn->prepare("INSERT INTO (FirstName,MiddleName,LastName,Email,Birthday,Address,Designation,Company,PhoneNumber)
     values(?,?,?,?,?,?,?,?,?,?)");
     $stmt->bind_param("ssssssssi",$FirstName,$MiddleName,$LastName,$Email,$Birthday,$Address,$Designation,$Company,$PhoneNumber);
     $stmt->execute();
