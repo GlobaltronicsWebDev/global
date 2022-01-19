@@ -5,7 +5,7 @@ include('connect.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>pogi si ron</title>
+  <title>Bago</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -36,7 +36,6 @@ include('connect.php');
             <input type="company" class="form-control" id="company" placeholder="COMPANY" name="company">
             <label "phonenumber">PHONE NUMBER:</label>
             <input type="phone" class="form-control" id="phone" placeholder= "PHONE NUMBER" name="PhoneNumber">
-    
             <button type="submit" class="btn btn-default">DONATE</button>
         </div>
     </form>
