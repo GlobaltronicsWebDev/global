@@ -14,7 +14,7 @@ include('connect.php');
 </head>         
 <body>
 <div class="container">
-    <img src="1.jpg"
+    <img src="1.jpg">
     
     <h2>Github!</h2>
     <form action="connect.php" method="POST">
