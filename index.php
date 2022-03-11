@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bago</title>
+  <title>Ticketing System</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -11,10 +11,10 @@
 <body>
 <div class="container">
     <!-- <div class="pic"><img src="1.jpg"></div> -->
-    <h2>Github!</h2>
+    <h2>Globaltronics IT Ticketing System</h2>
     <form action="connect.php" method="POST">
         <div class="form-group">
-            <label "FName">FIRSTNAME:</label>
+            <label "FName">FIRSTNAME</label>
             <input type="FirstName" class="form-control" id="FirstName" placeholder="ENTER YOUR FIRSTNAME" name="FirstName">
             <label "FName">MIDDLENAME:</label>
             <input type="MiddleName" class="form-control" id="MiddleName" placeholder="ENTER YOUR MIDDLENAME" name="MiddleName">
