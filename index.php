@@ -32,7 +32,7 @@
             <input type="Company" class="form-control" id="Company" placeholder="COMPANY" name="Company">
             <label "phonenumber">PHONE NUMBER:</label>
             <input type="PhoneNumber" class="form-control" id="PhoneNumber" placeholder= "PHONE NUMBER" name="PhoneNumber">
-            <button type="submit" class="btn btn-default">DONATE</button>
+            <button type="submit" class="btn btn-default">SUBMIT</button>
         </div>
     </form>
 </div>  
